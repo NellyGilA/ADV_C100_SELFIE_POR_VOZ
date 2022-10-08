@@ -69,10 +69,10 @@ Webcam.set({
 function take_selfie()
 {
     //data_uri se usa para visualizar la imagen.
-    Webcam.snap(function(data_uri){
+    Webcam.snap(function(data_url){
 
         //Vamos a actualizar el div que hicimos para que contenga la imagen
-        document.getElementById("result").innerHTML='<img id="selfie_image" src="'+data_uri+'"/>';
+        document.getElementById("result").innerHTML='<img id="selfie_image" src="'+data_url+'"/>';
     });
 }
 
