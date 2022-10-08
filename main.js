@@ -68,7 +68,7 @@ Webcam.set({
 //Agrega la función take_selfie
 function take_selfie()
 {
-    //data_uri se usa para visualizar la imagen.
+    //data_url se usa para visualizar la imagen.
     Webcam.snap(function(data_url){
 
         //Vamos a actualizar el div que hicimos para que contenga la imagen
